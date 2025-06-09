@@ -7,4 +7,4 @@
 ![[Pasted image 20250609203108.png]]
 
 ## File Docx:
-![[Pasted image 20250609203132.png]]
+![alt text](image.png)
