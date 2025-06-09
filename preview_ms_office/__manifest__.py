@@ -25,4 +25,6 @@ temporarily without storing additional files in the database, preserving storage
     'author': 'XuanHuyen',
     "installable": True,
     "application": False,
+    'license': 'AGPL-3',
+    'images': ['static/description/icon.png'],
 }
