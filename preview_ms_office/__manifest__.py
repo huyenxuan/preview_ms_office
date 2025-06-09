@@ -21,7 +21,7 @@ temporarily without storing additional files in the database, preserving storage
         ],
     },
     'price': 45.00,
-    'currency': 'USD'
+    'currency': 'USD',
     'author': 'XuanHuyen',
     "installable": True,
     "application": False,
