@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-inherit="web.FileViewer" t-inherit-mode="extension">
+        <xpath expr="//i[@t-if='state.file.isPdf']" position="after">
+            <i t-if="state.file.isMsOfficeDocument" 
+            class="fa fa-file-text" 
+            role="img" title="Docs file"/>
+        </xpath>
+        <xpath expr="//iframe[@t-if='state.file.isPdf']" position="after">
+            <iframe t-if="state.file.isMsOfficeDocument"
+                    class="o-FileViewer-view w-75 h-100 border-0"
+                    t-att-class="{ 'w-100': ui.isSmall }"
+                    t-att-src="state.file.defaultSource"
+                    allowfullscreen="true"
+                    title="Microsoft Office Viewer"/>
+        </xpath>
+    </t>
+</templates>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+
+    <t t-inherit="mail.AttachmentView" t-inherit-mode="extension">
+        <xpath expr="//iframe[@t-if='state.thread.mainAttachment.isPdf']" position="after">
+            <iframe t-if="state.thread.mainAttachment.isMsOfficeDocument"
+                    class="d-print-none mb48"
+                    t-att-src="state.thread.mainAttachment.defaultSource"
+                    style="width: 100%; height: 600px;"
+                    allowfullscreen="true"
+                    title="Microsoft Office Viewer"/>
+        </xpath>
+    </t>
+
+</templates>
