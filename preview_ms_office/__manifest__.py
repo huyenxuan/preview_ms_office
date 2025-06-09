@@ -1,6 +1,6 @@
 {
     "name": "Preview MS Office",
-    "version": "1.0",
+    "version": "18.0",
     "summary": "Preview Office documents by converting them to PDF within Odoo",
     "description": '''
 This module enables seamless previewing of Microsoft Office documents (Word, Excel, PowerPoint)
